@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Set font and background color */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #202225;
+  color: #fff;
+}
+
+/* Set styles for the container */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Set styles for the form */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+label {
+  font-size: 1.2rem;
+}
+
+input[type=text] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 4px;
+  background-color: #36393f;
+  color: #fff;
+}
+
+button[type=submit] {
+  background-color: #7289da;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type=submit]:hover {
+  background-color: #677bc4;
+}
+
+/* Set styles for the result container */
+.result {
+  margin-top: 30px;
+}
+
+.result p {
+  font-size: 1.2rem;
+}
+
+.url-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+input[type=text]#short-url {
+  width: 80%;
+  padding: 12px 20px;
+  margin-right: 10px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 4px;
+  background-color: #36393f;
+  color: #fff;
+}
+
+button#copy-btn {
+  background-color: #7289da;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button#copy-btn:hover {
+  background-color: #677bc4;
+}
+
+/* Set styles for the header */
+header {
+  background-color: #2f3136;
+  padding: 10px;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+/* Set styles for the footer */
+footer {
+  background-color: #2f3136;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #b9bbbe;
+}
