@@ -1,10 +1,8 @@
-// send POST request by accessing the link in the id=url form field and send it to localhost:3000/shorten
-// and then display the shortened url in the id=shortened form field
 
-// Path: client\index.js
-// send POST request by accessing the link in the id=url form field and send it to localhost:3000/shorturl
-
-// Path: client\index.js
+const userdata = JSON.parse(localStorage.getItem('user'));
+if(!userdata){
+    window.location.href = './Auth/login.html';
+}
 
 const url = document.getElementById('url');
 const shortened = document.getElementById('short-url');
@@ -34,3 +32,8 @@ copy.addEventListener('click', () => {
     shortened.select();
     document.execCommand('copy');
 });
+
+
+// retrive the localstorage data if exist and print it in the console
+const user = JSON.parse(localStorage.getItem('user'));
+console.log(user);

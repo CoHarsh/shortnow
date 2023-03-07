@@ -1,0 +1,40 @@
+/* write css for this <div class="login-signup">
+        <button class="login">Login</button>
+        <button class="signup">Signup</button>
+    </div> */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #f1f1f1;
+}
+
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.login{
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.signup{
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
